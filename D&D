@@ -1,0 +1,19 @@
+import java.util.Scanner;  
+public class ScannerTest{  
+    public static void main(String args[]){  
+      Scanner sc=new Scanner(System.in);  
+         System.out.println("welcome");
+         System.out.println("Please pick your charecter,"); 
+         System.out.println("1) mage, hp = 9  atacks, fire 1d6"); 
+         System.out.println("2) fighter, hp = 15 attacks, spear 1d8");
+         int charecter_counter=sc.nextInt();
+ /*      System.out.println("Enter your rollno");  
+       int rollno=sc.nextInt();  
+       System.out.println("Enter your name");  
+       String name=sc.next();  
+       System.out.println("Enter your fee");  
+       double fee=sc.nextDouble();  
+       System.out.println("Rollno:"+rollno+" name:"+name+" fee:"+fee);  
+       sc.close();*/  
+     }  
+    }  
