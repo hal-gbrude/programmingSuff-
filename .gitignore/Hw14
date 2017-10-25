@@ -1,0 +1,15 @@
+import java.util.Scanner;
+public class listNumbers{
+    //int n = 10;
+     public static void main(String[] args){
+        Scanner sc=new Scanner(System.in);  
+        System.out.println("input number");
+        int num=sc.nextInt();  
+        Numbers(num);
+     }
+    public static void Numbers(int n){
+      for(int m = 1; m <= n; m++){
+        System.out.print("[" + m + "]");
+     }
+}
+}
