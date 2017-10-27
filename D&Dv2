@@ -1,0 +1,33 @@
+import java.util.Scanner;  
+public class ScannerTest{
+    int hp_mage = 14;
+    int att_mage = 6;
+    int magic_mage = 3;
+    int hp_fighter = 20;
+    int att_fighter = 8;
+    public static void main(String args[]){  
+      Scanner sc=new Scanner(System.in);  
+         System.out.println("welcome");
+         System.out.println("Please pick your charecter,"); 
+         System.out.println("1) mage, hp = 14 /natacks, fire 1d6/nspells, heal +1d6HP"); 
+         System.out.println("2) fighter, hp = 20 attacks, spear 1d8");
+         int charecter_counter=sc.nextInt();
+         if(charecter_counter == 1){
+            mage(hp_mage, att_mage, magic_mage);
+         }
+        else {
+            if(charecter_counter == 2){
+                fighter(att_fighter, att_fighter);
+            }
+        }
+     }  
+    public static void mage(hp_mage, att_mage, magic_mage){
+        
+        
+    }
+    public static void fighter(hp_fighter, att_fighter){
+        
+        
+    }
+    
+}  
