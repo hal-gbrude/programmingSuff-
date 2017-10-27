@@ -17,11 +17,11 @@ public class ScannerTest{
          }
         else {
             if(charecter_counter == 2){
-                fighter(att_fighter, att_fighter);
+                fighter(int hp_fighter, int att_fighter);
             }
         }
      }  
-    public static void mage(hp_mage, att_mage, magic_mage){
+    public static void mage(int hp_mage, int att_mage, int magic_mage){
         
         
     }
@@ -30,4 +30,4 @@ public class ScannerTest{
         
     }
     
-}  
+} 
